@@ -1,0 +1,49 @@
+
+@font-face{
+    font-family: outfit;
+    src: "outfit.ttf";
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    padding-top: 100px;
+    font-family: "outfit";
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box{
+    width: 280px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 6px 8px 14px 8px hsl(220, 15%, 80%);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box .qrcode-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box .big-paragraph{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: hsl(218, 44%, 22%);
+}
+
+.box .small-paragraph{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
